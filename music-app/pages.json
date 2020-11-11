@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"backgroundColor":"#d1ccc0"
+			}
+		}
+	    ,{
+            "path" : "pages/fen-lei/fen-lei",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/like/like",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "rgb(224, 99, 89)",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+			"iconPath": "./static/tabbar/shouye.png",
+			"selectedIconPath": "./static/tabbar/shouyeed.png",
+			"pagePath": "pages/index/index",
+			"text": "首页"
+		}, {
+			"iconPath": "./static/tabbar/fenlei.png",
+			"selectedIconPath": "./static/tabbar/fenleied.png",
+			"pagePath": "pages/fen-lei/fen-lei",
+			"text": "分类"
+		}, {
+			"iconPath": "./static/tabbar/like.png",
+			"selectedIconPath": "./static/tabbar/liked.png",
+			"pagePath": "pages/like/like",
+			"text": "收藏"
+		}, {
+			"iconPath": "./static/tabbar/wode.png",
+			"selectedIconPath": "./static/tabbar/wodeed.png",
+			"pagePath": "pages/my/my",
+			"text": "我的"
+		}]
+	}
+}
