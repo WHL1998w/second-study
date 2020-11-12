@@ -1,6 +1,5 @@
 <template>
 	<!-- 根据nightStatus的值切换白天和黑夜模式 -->
-	
 	<view style="height: 100vh;" :class="nightStatus?'nightTheme':''">
 		<!-- 歌曲信息 -->
 		<view class="d-inline-block w-100 text-center py-4">
@@ -15,12 +14,12 @@
 		</view>
 
 		<!-- 歌曲图片 -->
-		<view class="flex align-center justify-center" style="height: 420rpx;">
-			<image src="../../static/singcover/1.jpg" lazy-load mode="widthFix" style="border-radius: 35rpx; box-shadow: 0 2rpx 6rpx 0;"></image>
+		<view class="flex align-center justify-center" style=" height: 420rpx;">
+			<image src="../../static/singcover/2.jpg" lazy-load  style="height: 420rpx; border-radius: 35rpx; box-shadow: 0 2rpx 6rpx 0;"></image>
 		</view>
 
 		<!-- 进度部分 -->
-		<view class="flex align-center justify-center font" style="color: #7a8388; height: 65rpx;">
+		<view class="flex align-center justify-center font" style="color: #7a8388; height: 110rpx;">
 			<!-- 总时长 -->
 			<view>{{ durationTime | formatTime }}</view>
 			<!-- 进度条部分 -->
@@ -49,7 +48,7 @@
 				<view class="ml-2" @tap="PreOrPause('next')"><my-icon iconId="icon-xiayixiang" iconSize="85"></my-icon></view>
 			</view>
 
-			<view class="flex align-center justify-center font text-light-black" style="padding-top: 100rpx;">
+			<view class="flex align-center justify-center font text-light-black" style="padding-top: 70rpx;">
 				<view class="flex flex-column align-center" @tap="chageStatus('listStatus')">
 					<my-icon :iconId="!listStatus?'icon-icon--':'icon-liebiao'" iconSize="60"></my-icon>
 					<text class="pt-1">播放列表</text>
