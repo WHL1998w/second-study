@@ -1,9 +1,8 @@
 package com.soft1851.user.controller;
 
-import com.soft185.api.controller.user.HelloControllerApi;
+import com.soft185.api.HelloControllerApi;
 import com.soft1851.result.GraceResult;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**

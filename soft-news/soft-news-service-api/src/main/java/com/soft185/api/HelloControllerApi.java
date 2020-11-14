@@ -1,4 +1,4 @@
-package com.soft185.api.controller.user;
+package com.soft185.api;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
