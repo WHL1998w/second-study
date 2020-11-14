@@ -1,4 +1,4 @@
-package com.soft185.api;
+package com.soft1851.api;
 
 import com.soft1851.result.GraceResult;
 import io.swagger.annotations.Api;
@@ -26,17 +26,17 @@ public interface UserControllerApi {
      * 获得所有用户信息
      * @return 获得所有用户信息
      */
-//   @ApiOperation(value = "获得所有用户信息", notes = "获得所有用户信息", httpMethod = "POST")
-//    @GetMapping("/all")
-//   GraceResult getAllUsers();
+   @ApiOperation(value = "获得所有用户信息", notes = "获得所有用户信息", httpMethod = "POST")
+    @PostMapping("/all")
+   GraceResult getAllUsers();
 
     /**
      * 获得用户基本信息
      * @param userId :用户id
      * @return 用户基本信息
      */
-//   @ApiOperation(value = "获得用户基本信息", notes = "获得用户基本信息", httpMethod = "POST")
-//   @PostMapping("/userInfo")
-//   GraceResult getUserInfo(@RequestParam String userId);
+   @ApiOperation(value = "获得用户基本信息", notes = "获得用户基本信息", httpMethod = "POST")
+   @PostMapping("/userInfo")
+   GraceResult getUserInfo(@RequestParam String userId);
 
 }
