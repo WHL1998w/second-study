@@ -1,6 +1,6 @@
 package com.soft1851.user.controller;
 
-import com.soft1851.api.UserControllerApi;
+import com.soft1851.api.controller.user.UserControllerApi;
 import com.soft1851.pojo.AppUser;
 import com.soft1851.result.GraceResult;
 import com.soft1851.user.mapper.AppUserMapper;

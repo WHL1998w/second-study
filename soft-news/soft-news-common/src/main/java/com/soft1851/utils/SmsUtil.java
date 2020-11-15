@@ -14,8 +14,8 @@ import javax.annotation.Resource;
 
 /**
  * @ClassName SmsUtil
- * @Description TODO
- * @Author 田震
+ * @Description 短信工具类
+ * @Author wanghuanle
  * @Date 2020/11/15
  **/
 @Component

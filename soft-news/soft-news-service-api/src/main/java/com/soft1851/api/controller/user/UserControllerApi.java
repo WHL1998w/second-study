@@ -1,4 +1,4 @@
-package com.soft1851.api;
+package com.soft1851.api.controller.user;
 
 import com.soft1851.result.GraceResult;
 import io.swagger.annotations.Api;
