@@ -1,3 +1,9 @@
-F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft185\api\UserControllerApi.java
-F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft185\my\mapper\MyMapper.java
-F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft185\api\HelloControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\PassportInterceptor.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\CoresConfig.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\UserControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\my\mapper\MyMapper.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\PassportControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\Swagger2.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\InterceptorConfig.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\HelloControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\BaseController.java
