@@ -8,7 +8,7 @@
 			}
 		}
 	    ,{
-            "path" : "pages/fen-lei/fen-lei",
+            "path" : "pages/sort/sort",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -63,7 +63,7 @@
 		}, {
 			"iconPath": "./static/tabbar/fenlei.png",
 			"selectedIconPath": "./static/tabbar/fenleied.png",
-			"pagePath": "pages/fen-lei/fen-lei",
+			"pagePath": "pages/sort/sort",
 			"text": "分类"
 		}, {
 			"iconPath": "./static/tabbar/like.png",

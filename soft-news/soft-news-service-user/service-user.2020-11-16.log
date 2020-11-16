@@ -46,3 +46,4 @@ java.net.ConnectException: Connection refused: no further information
 	at java.lang.Thread.run(Thread.java:748)
 2020-11-16 19:56:28.719 [http-nio-8003-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
 2020-11-16 19:56:29.175 [http-nio-8003-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2020-11-16 20:08:30.872 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
