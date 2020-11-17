@@ -57,6 +57,8 @@
             <version>${swagger-bootstrap-ui.version}</version>
         </dependency>
 
+
+
     </dependencies>
 
 </project>

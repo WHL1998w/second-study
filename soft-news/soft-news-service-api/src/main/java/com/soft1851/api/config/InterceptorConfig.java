@@ -1,6 +1,6 @@
 package com.soft1851.api.config;
 
-import com.soft1851.api.controller.user.UserActiveInterceptor;
+import com.soft1851.api.interceptors.UserActiveInterceptor;
 import com.soft1851.api.interceptors.PassportInterceptor;
 import com.soft1851.api.interceptors.UserTokenInterceptor;
 import org.springframework.context.annotation.Bean;

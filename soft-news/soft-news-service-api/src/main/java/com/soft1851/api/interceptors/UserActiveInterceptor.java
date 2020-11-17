@@ -1,4 +1,4 @@
-package com.soft1851.api.controller.user;
+package com.soft1851.api.interceptors;
 
 import com.soft1851.enums.UserStatus;
 import com.soft1851.exception.GraceException;
