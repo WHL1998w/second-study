@@ -15,7 +15,7 @@ import javax.validation.Valid;
 /**
  * @ClassName UserControllerApi
  * @Description TODO
- * @Author 田震
+ * @Author wanghuanle
  * @Date 2020/11/14
  **/
 @Api(value = "用户相关Controller",tags = {"用户信息相关Controller"})
@@ -42,12 +42,12 @@ public interface UserControllerApi {
     @ApiOperation(value = "完善用户信息",notes = "完善用户信息",httpMethod = "POST")
     GraceResult updateUserInfo(@RequestBody @Valid UpdateUserInfoBO updateUserInfoBO, BindingResult result);
 
-//    /**
-//     * 获得用户基础信息
-//     * @param userId
-//     * @return
-//     */
-//    @PostMapping("/getUserInfo")
-//    @ApiOperation(value = "获得用户基础信息",notes = "获得用户基础信息",httpMethod = "POST")
-//    GraceResult getUserBasicInfo(@RequestParam String userId);
+    /**
+     * 获得用户基础信息
+     * @param userId
+     * @return
+     */
+    @PostMapping("/getUserInfo")
+    @ApiOperation(value = "获得用户基础信息",notes = "获得用户基础信息",httpMethod = "POST")
+    GraceResult getUserBasicInfo(@RequestParam String userId);
 }

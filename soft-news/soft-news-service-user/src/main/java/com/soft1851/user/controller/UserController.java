@@ -4,6 +4,7 @@ import com.soft1851.api.BaseController;
 import com.soft1851.api.controller.user.UserControllerApi;
 import com.soft1851.pojo.AppUser;
 import com.soft1851.pojo.bo.UpdateUserInfoBO;
+import com.soft1851.pojo.vo.AppUserVO;
 import com.soft1851.pojo.vo.UserAccountInfoVO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
@@ -22,7 +23,7 @@ import java.util.Map;
 /**
  * @ClassName UserController
  * @Description TODO
- * @Author 田震
+ * @Author wanghuanle
  * @Date 2020/11/14
  **/
 @RestController
@@ -67,14 +68,17 @@ public class UserController extends BaseController implements UserControllerApi 
         return GraceResult.ok();
     }
 
-//    @Override
-//    public GraceResult getUserBasicInfo(String userId) {
-//        if (StringUtils.isBlank(userId)){
-//            return  GraceResult.errorCustom(ResponseStatusEnum.UN_LOGIN);
-//        }
-//        AppUser user=getUser(userId);
-//        AppUserVO userVO=new AppUserVO();
-//        BeanUtils.copyProperties(user,userVO);
-//        return GraceResult.ok(userVO);
-//    }
+    @Override
+    public GraceResult getUserBasicInfo(String userId) {
+        //判断不能为空
+        if (StringUtils.isBlank(userId)){
+            return  GraceResult.errorCustom(ResponseStatusEnum.UN_LOGIN);
+        }
+        //查询userId
+        AppUser user=getUser(userId);
+        //信息脱敏，设置不显示
+        AppUserVO userVO=new AppUserVO();
+        BeanUtils.copyProperties(user,userVO);
+        return GraceResult.ok(userVO);
+    }
 }
