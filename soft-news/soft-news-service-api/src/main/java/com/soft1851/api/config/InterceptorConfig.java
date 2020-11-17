@@ -1,5 +1,6 @@
 package com.soft1851.api.config;
 
+import com.soft1851.api.controller.user.UserActiveInterceptor;
 import com.soft1851.api.interceptors.PassportInterceptor;
 import com.soft1851.api.interceptors.UserTokenInterceptor;
 import org.springframework.context.annotation.Bean;
@@ -26,6 +27,11 @@ public class InterceptorConfig implements WebMvcConfigurer {
         return new UserTokenInterceptor();
     }
 
+    @Bean
+    public UserActiveInterceptor userActiveInterceptor(){
+        return new UserActiveInterceptor();
+    }
+
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         //注册拦截器，添加拦截器路由
@@ -35,5 +41,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
         registry.addInterceptor(userTokenInterceptor())
                 .addPathPatterns("/user/getUserInfo")
                 .addPathPatterns("/user/updateUserInfo");
+
+        
     }
 }
