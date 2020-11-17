@@ -1,5 +1,6 @@
 package com.soft1851.user.controller;
 
+import com.soft1851.api.BaseController;
 import com.soft1851.api.controller.user.UserControllerApi;
 import com.soft1851.pojo.AppUser;
 import com.soft1851.result.GraceResult;
@@ -14,7 +15,7 @@ import javax.annotation.Resource;
  * @date 2020/11/14 16:42
  */
 @RestController
-public class UserController implements UserControllerApi {
+public class UserController extends BaseController implements UserControllerApi {
 
     @Resource
     private AppUserMapper appUserMapper;

@@ -1,3 +1,4 @@
+com\soft1851\pojo\vo\UserAccountInfoVO.class
 com\soft1851\pojo\AppUser.class
 com\soft1851\pojo\AppUser$AppUserBuilder.class
 com\soft1851\pojo\bo\RegistLoginBO$RegistLoginBOBuilder.class
