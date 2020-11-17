@@ -81,20 +81,37 @@ public class UserServiceImpl implements UserService {
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void updateUserInfo(UpdateUserInfoBO updateUserInfoBO) {
-        AppUser userInfo = new AppUser();
-        BeanUtils.copyProperties(updateUserInfoBO,userInfo);
+//        AppUser userInfo=new AppUser();
+//        BeanUtils.copyProperties(updateUserInfoBO,userInfo);
+//        userInfo.setUpdatedTime(new Date());
+//        userInfo.setActiveStatus(UserStatus.ACTIVE.type);
+//        int result =appUserMapper.updateByPrimaryKeySelective(userInfo);
+//        if (result!=1){
+//            GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
+//        }
+            String userId = updateUserInfoBO.getId();
+            // 保证双写一直，先删除redis中的数据，然后更新数据库
+            redis.del(REDIS_USER_INFO + ":" + userId);
+            AppUser userInfo = new AppUser();
+            BeanUtils.copyProperties(updateUserInfoBO, userInfo);
+            userInfo.setUpdatedTime(new Date());
+            userInfo.setActiveStatus(UserStatus.ACTIVE.type);
+            int result = appUserMapper.updateByPrimaryKeySelective(userInfo);
+            if (result != 1) {
+                GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
+            }
+//        String userId = updateUserInfoBO.getId();
+            // 再次查询用户的最新信息，放入redis中
+            AppUser user = getUser(userId);
+            redis.set(REDIS_USER_INFO + ":" + userId, JsonUtil.objectToJson(user));
 
-        userInfo.setUpdatedTime(new Date());
-        userInfo.setActiveStatus(UserStatus.ACTIVE.type);
+            // 缓存双删策略
+            try {
+                Thread.sleep(100);
+                redis.del(REDIS_USER_INFO + ":" + userId);
 
-        int result = appUserMapper.updateByPrimaryKeySelective(userInfo);
-        if (result != 1) {
-            GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
-        }
-
-        String userId = updateUserInfoBO.getId();
-        //再次查询用户的最新信息，放入redis中
-        AppUser user = getUser(userId);
-        redis.set(REDIS_USER_INFO + ":" + userId, JsonUtil.objectToJson(user));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
     }
 }
