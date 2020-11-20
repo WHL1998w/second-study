@@ -30,7 +30,7 @@ public interface AdminMsgControllerApi {
     /**
      * 查询管理员是否存在
      * @param username
-     * @return
+     * @return GraceResult
      */
     @PostMapping("adminIsExist")
     @ApiOperation(value = "查询管理员是否存在",notes = "查询管理员是否存在",httpMethod = "POST")

@@ -13,7 +13,6 @@ import com.soft1851.pojo.bo.AdminLoginBO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -53,6 +52,10 @@ public class AdminMsgController extends BaseController implements
         return GraceResult.ok();
     }
 
+    /**
+     * 验证管理员账号唯一
+     * @param username
+     */
     private void  checkAdminExist(String username){
         AdminUser admin = adminUserService.queryAdminByUsername(username);
 
