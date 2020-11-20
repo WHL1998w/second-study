@@ -21,12 +21,11 @@ import java.util.Date;
  * @description：TODO
  */
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AdminUserServiceImpl implements AdminUserService {
 
 
+    @Autowired
     public AdminUserMapper adminUserMapper;
-    public final Sid sid;
 
 
     @Override
