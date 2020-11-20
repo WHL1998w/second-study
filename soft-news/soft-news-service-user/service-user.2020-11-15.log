@@ -1,5 +1,5 @@
 2020-11-15 22:04:46.183 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-11-15 22:04:47.443 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-15 22:04:47.443 [main] INFO  Application - The following profiles are active: dev
 2020-11-15 22:04:49.110 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2020-11-15 22:04:49.113 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2020-11-15 22:04:49.177 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
@@ -25,12 +25,12 @@
 2020-11-15 22:04:54.256 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
 2020-11-15 22:04:54.298 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2020-11-15 22:04:54.308 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-11-15 22:04:54.511 [main] INFO  com.soft1851.user.Application - Started Application in 10.377 seconds (JVM running for 12.629)
+2020-11-15 22:04:54.511 [main] INFO  Application - Started Application in 10.377 seconds (JVM running for 12.629)
 2020-11-15 22:05:24.796 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-11-15 22:05:24.797 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-11-15 22:05:24.806 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
 2020-11-15 22:15:08.432 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-11-15 22:15:09.580 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-15 22:15:09.580 [main] INFO  Application - The following profiles are active: dev
 2020-11-15 22:15:10.336 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2020-11-15 22:15:10.339 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2020-11-15 22:15:10.370 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
@@ -56,9 +56,9 @@
 2020-11-15 22:15:14.327 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
 2020-11-15 22:15:14.341 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2020-11-15 22:15:14.352 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-11-15 22:15:14.527 [main] INFO  com.soft1851.user.Application - Started Application in 7.677 seconds (JVM running for 9.354)
+2020-11-15 22:15:14.527 [main] INFO  Application - Started Application in 7.677 seconds (JVM running for 9.354)
 2020-11-15 22:15:38.148 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-11-15 22:15:39.267 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-15 22:15:39.267 [main] INFO  Application - The following profiles are active: dev
 2020-11-15 22:15:40.011 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2020-11-15 22:15:40.013 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2020-11-15 22:15:40.041 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
@@ -84,12 +84,12 @@
 2020-11-15 22:15:43.980 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
 2020-11-15 22:15:43.993 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2020-11-15 22:15:44.003 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-11-15 22:15:44.138 [main] INFO  com.soft1851.user.Application - Started Application in 7.563 seconds (JVM running for 9.258)
+2020-11-15 22:15:44.138 [main] INFO  Application - Started Application in 7.563 seconds (JVM running for 9.258)
 2020-11-15 22:16:01.622 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-11-15 22:16:01.622 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-11-15 22:16:01.629 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
 2020-11-15 23:04:51.090 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-11-15 23:04:52.214 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-15 23:04:52.214 [main] INFO  Application - The following profiles are active: dev
 2020-11-15 23:04:52.960 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2020-11-15 23:04:52.962 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2020-11-15 23:04:52.989 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
@@ -115,12 +115,12 @@
 2020-11-15 23:04:56.826 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
 2020-11-15 23:04:56.839 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2020-11-15 23:04:56.849 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-11-15 23:04:56.985 [main] INFO  com.soft1851.user.Application - Started Application in 7.478 seconds (JVM running for 9.091)
+2020-11-15 23:04:56.985 [main] INFO  Application - Started Application in 7.478 seconds (JVM running for 9.091)
 2020-11-15 23:05:04.187 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-11-15 23:05:04.187 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-11-15 23:05:04.194 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
 2020-11-15 23:08:25.045 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-11-15 23:08:26.188 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-15 23:08:26.188 [main] INFO  Application - The following profiles are active: dev
 2020-11-15 23:08:26.945 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2020-11-15 23:08:26.947 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2020-11-15 23:08:26.974 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
@@ -146,7 +146,7 @@
 2020-11-15 23:08:30.803 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
 2020-11-15 23:08:30.816 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2020-11-15 23:08:30.826 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-11-15 23:08:30.963 [main] INFO  com.soft1851.user.Application - Started Application in 7.655 seconds (JVM running for 9.177)
+2020-11-15 23:08:30.963 [main] INFO  Application - Started Application in 7.655 seconds (JVM running for 9.177)
 2020-11-15 23:08:35.229 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-11-15 23:08:35.229 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-11-15 23:08:35.236 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms

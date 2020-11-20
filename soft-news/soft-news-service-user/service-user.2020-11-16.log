@@ -1,6 +1,6 @@
 2020-11-16 19:50:40.288 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
 2020-11-16 19:50:40.955 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-11-16 19:50:42.147 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-16 19:50:42.147 [main] INFO  Application - The following profiles are active: dev
 2020-11-16 19:50:43.845 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2020-11-16 19:50:43.849 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2020-11-16 19:50:43.912 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
@@ -26,7 +26,7 @@
 2020-11-16 19:50:50.020 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
 2020-11-16 19:50:50.143 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2020-11-16 19:50:50.155 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-11-16 19:50:50.403 [main] INFO  com.soft1851.user.Application - Started Application in 11.936 seconds (JVM running for 14.087)
+2020-11-16 19:50:50.403 [main] INFO  Application - Started Application in 11.936 seconds (JVM running for 14.087)
 2020-11-16 19:53:04.957 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-11-16 19:53:04.958 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-11-16 19:53:04.966 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
