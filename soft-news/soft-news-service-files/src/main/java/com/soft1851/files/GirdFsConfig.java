@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
  **/
 @Component
 public class GirdFsConfig {
-    @Value("${spring.data.mogodb.database}")
+    @Value("${spring.data.mongodb.database}")
     private String mongodb;
 
     @Bean
