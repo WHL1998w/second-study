@@ -100,6 +100,18 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         return GraceResult.ok();
     }
 
+    /**
+     * 修改管理员信息
+     * @param request
+     * @param response
+     * @param newAdminBO
+     * @return
+     */
+    @Override
+    public GraceResult updateAdmin(HttpServletRequest request, HttpServletResponse response, NewAdminBO newAdminBO) {
+        return null;
+    }
+
     private void checkAdminExist(String username) {
         AdminUser admin = adminUserService.queryAdminByUsername(username);
         if (admin != null) {
