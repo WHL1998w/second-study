@@ -1,7 +1,7 @@
 package com.soft1851.admin.api.controller.user;
 
-import com.soft1851.admin.pojo.bo.UpdateUserInfoBO;
 import com.soft1851.admin.result.GraceResult;
+import com.soft1851.pojo.bo.UpdateUserInfoBO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.BindingResult;
