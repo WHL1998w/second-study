@@ -1,0 +1,367 @@
+2020-11-20 14:48:06.912 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 14:48:07.657 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 14:48:08.554 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 14:48:10.283 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 14:48:10.286 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 14:48:10.322 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-11-20 14:48:10.608 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 14:48:11.246 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 14:48:11.258 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 14:48:11.258 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 14:48:11.259 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 14:48:11.419 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 14:48:11.419 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2842 ms
+2020-11-20 14:48:13.051 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 14:48:13.051 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 14:48:13.074 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 14:48:13.074 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 14:48:13.282 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 14:48:14.616 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 14:48:14.649 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 14:48:15.294 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 14:48:15.312 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 14:48:15.322 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 14:48:15.538 [main] INFO  com.soft1851.files.Application - Started Application in 10.187 seconds (JVM running for 12.094)
+2020-11-20 14:48:39.093 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 14:48:39.094 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 14:48:39.104 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-11-20 14:48:39.242 [http-nio-8004-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 14:48:39.616 [http-nio-8004-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 374
+2020-11-20 14:48:39.616 [http-nio-8004-exec-1] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3ZsaAb8x-ABGfRAFjlYs306.jpg
+2020-11-20 14:48:39.636 [http-nio-8004-exec-1] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3ZsaAb8x-ABGfRAFjlYs306.jpg
+2020-11-20 14:50:06.137 [http-nio-8004-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 14:50:06.221 [http-nio-8004-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 84
+2020-11-20 14:50:06.221 [http-nio-8004-exec-4] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3Zx2AGhG5AAA4kNTvCEI568.jpg
+2020-11-20 14:50:06.221 [http-nio-8004-exec-4] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3Zx2AGhG5AAA4kNTvCEI568.jpg
+2020-11-20 14:51:12.970 [http-nio-8004-exec-6] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 14:51:13.061 [http-nio-8004-exec-6] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 91
+2020-11-20 14:51:13.062 [http-nio-8004-exec-6] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3Z2CAVu_FAAE7ilxEl4I415.jpg
+2020-11-20 14:51:13.062 [http-nio-8004-exec-6] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3Z2CAVu_FAAE7ilxEl4I415.jpg
+2020-11-20 14:51:26.978 [http-nio-8004-exec-8] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 14:51:27.133 [http-nio-8004-exec-8] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 155
+2020-11-20 14:51:27.134 [http-nio-8004-exec-8] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3Z26ARk_GABUd7GxjA3k487.jpg
+2020-11-20 14:51:27.134 [http-nio-8004-exec-8] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3Z26ARk_GABUd7GxjA3k487.jpg
+2020-11-20 14:53:13.421 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 14:53:14.052 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 14:53:15.023 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 14:53:16.031 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 14:53:16.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 14:53:16.055 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-11-20 14:53:16.254 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 14:53:16.702 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 14:53:16.713 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 14:53:16.714 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 14:53:16.714 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 14:53:16.846 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 14:53:16.846 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1803 ms
+2020-11-20 14:53:18.089 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 14:53:18.090 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 14:53:18.093 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 14:53:18.094 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 14:53:18.248 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 14:53:19.369 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 14:53:19.396 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 14:53:20.043 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 14:53:20.057 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 14:53:20.069 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 14:53:20.205 [main] INFO  com.soft1851.files.Application - Started Application in 7.994 seconds (JVM running for 9.768)
+2020-11-20 15:01:00.559 [http-nio-8004-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 15:01:00.560 [http-nio-8004-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 15:01:00.571 [http-nio-8004-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-11-20 15:01:00.657 [http-nio-8004-exec-6] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:01:00.985 [http-nio-8004-exec-6] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 328
+2020-11-20 15:01:00.985 [http-nio-8004-exec-6] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3aayACzHHABUd7GxjA3k719.jpg
+2020-11-20 15:01:00.985 [http-nio-8004-exec-6] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3aayACzHHABUd7GxjA3k719.jpg
+2020-11-20 15:01:37.609 [http-nio-8004-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:01:37.730 [http-nio-8004-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 121
+2020-11-20 15:01:37.730 [http-nio-8004-exec-4] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3adGAUbWUAACm_7QsQe4347.jpg
+2020-11-20 15:01:37.730 [http-nio-8004-exec-4] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3adGAUbWUAACm_7QsQe4347.jpg
+2020-11-20 15:03:04.018 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:03:04.594 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:03:05.518 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:03:06.743 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:03:06.746 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:03:06.792 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-11-20 15:03:07.099 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:03:07.711 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:03:07.730 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:03:07.731 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:03:07.731 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:03:08.001 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:03:08.001 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2452 ms
+2020-11-20 15:03:09.549 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:03:09.550 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:03:09.555 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:03:09.555 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:03:09.749 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:03:11.006 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:03:11.030 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:03:11.802 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:03:11.820 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:03:11.838 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:03:11.986 [main] INFO  com.soft1851.files.Application - Started Application in 9.314 seconds (JVM running for 11.249)
+2020-11-20 15:03:43.719 [http-nio-8004-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 15:03:43.719 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 15:03:43.731 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-20 15:03:43.799 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:03:43.996 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 196
+2020-11-20 15:03:43.997 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3ak-AX1xhAACm_7QsQe4805.jpg
+2020-11-20 15:03:43.997 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3ak-AX1xhAACm_7QsQe4805.jpg
+2020-11-20 15:12:20.190 [http-nio-8004-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:12:20.383 [http-nio-8004-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 193
+2020-11-20 15:12:20.383 [http-nio-8004-exec-4] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3bFOARzweAACm_7QsQe4973.jpg
+2020-11-20 15:12:20.383 [http-nio-8004-exec-4] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3bFOARzweAACm_7QsQe4973.jpg
+2020-11-20 15:24:20.552 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:24:21.083 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:24:21.853 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:24:22.800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:24:22.803 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:24:22.828 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-11-20 15:24:23.031 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:24:23.497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:24:23.509 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:24:23.509 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:24:23.509 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:24:23.651 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:24:23.651 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1776 ms
+2020-11-20 15:24:25.012 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:24:25.013 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:24:25.018 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:24:25.019 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:24:25.184 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:24:26.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:24:26.393 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:24:27.153 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:24:27.168 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:24:27.179 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:24:27.318 [main] INFO  com.soft1851.files.Application - Started Application in 7.987 seconds (JVM running for 9.776)
+2020-11-20 15:24:52.075 [http-nio-8004-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 15:24:52.075 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 15:24:52.086 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-11-20 15:24:52.154 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:24:52.379 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 225
+2020-11-20 15:24:52.379 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3b0OAGNZsAACm_7QsQe4367.jpg
+2020-11-20 15:24:52.379 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3b0OAGNZsAACm_7QsQe4367.jpg
+2020-11-20 15:32:28.035 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:32:28.612 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:32:29.422 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:32:30.510 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:32:30.513 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:32:30.545 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-11-20 15:32:30.803 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:32:31.414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:32:31.425 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:32:31.426 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:32:31.426 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:32:31.592 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:32:31.592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2149 ms
+2020-11-20 15:32:33.771 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:32:33.771 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:32:33.780 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:32:33.781 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:32:34.062 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:32:35.456 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:32:35.488 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:32:36.369 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:32:36.388 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:32:36.400 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:32:36.616 [main] INFO  com.soft1851.files.Application - Started Application in 10.256 seconds (JVM running for 12.062)
+2020-11-20 15:32:47.986 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:32:48.579 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:32:49.501 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:32:50.524 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:32:50.527 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:32:50.555 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-11-20 15:32:50.772 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:32:51.259 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:32:51.269 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:32:51.269 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:32:51.269 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:32:51.422 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:32:51.422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1893 ms
+2020-11-20 15:32:52.888 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:32:52.888 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:32:52.900 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:32:52.900 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:32:53.069 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:32:54.393 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:32:54.423 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:32:55.145 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:32:55.158 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:32:55.169 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:32:55.328 [main] INFO  com.soft1851.files.Application - Started Application in 8.918 seconds (JVM running for 10.684)
+2020-11-20 15:36:08.431 [http-nio-8004-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 15:36:08.431 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 15:36:08.443 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-20 15:36:08.515 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:36:08.716 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 201
+2020-11-20 15:36:08.717 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3ceiAFmMFAACm_7QsQe4376.jpg
+2020-11-20 15:36:08.717 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3ceiAFmMFAACm_7QsQe4376.jpg
+2020-11-20 15:40:06.283 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:40:06.852 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:40:07.694 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:40:08.649 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:40:08.651 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:40:08.679 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-11-20 15:40:08.937 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:40:09.451 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:40:09.463 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:40:09.463 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:40:09.464 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:40:09.601 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:40:09.601 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1886 ms
+2020-11-20 15:40:11.002 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:40:11.002 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:40:11.007 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:40:11.007 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:40:11.175 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:40:12.348 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:40:12.373 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:40:13.086 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:40:13.103 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:40:13.116 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:40:13.251 [main] INFO  com.soft1851.files.Application - Started Application in 8.273 seconds (JVM running for 9.959)
+2020-11-20 15:40:29.373 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 15:40:29.373 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 15:40:29.385 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-20 15:40:29.451 [http-nio-8004-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:40:29.649 [http-nio-8004-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 198
+2020-11-20 15:40:29.649 [http-nio-8004-exec-1] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3cu2AJtmkAACm_7QsQe4091.jpg
+2020-11-20 15:40:29.649 [http-nio-8004-exec-1] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3cu2AJtmkAACm_7QsQe4091.jpg
+2020-11-20 15:49:02.880 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:49:03.516 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:49:04.512 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:49:05.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:49:05.583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:49:05.615 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-11-20 15:49:05.892 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:49:06.453 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:49:06.462 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:49:06.462 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:49:06.463 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:49:06.592 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:49:06.592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2062 ms
+2020-11-20 15:49:07.990 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:49:07.990 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:49:07.994 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:49:07.995 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:49:08.158 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:49:09.375 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:49:09.399 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:49:10.063 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:49:10.078 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:49:10.087 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:49:10.244 [main] INFO  com.soft1851.files.Application - Started Application in 8.834 seconds (JVM running for 10.767)
+2020-11-20 15:53:37.832 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 15:53:38.610 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 15:53:39.756 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 15:53:41.088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 15:53:41.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 15:53:41.117 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-11-20 15:53:41.359 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 15:53:41.987 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 15:53:42.004 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:53:42.004 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 15:53:42.005 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 15:53:42.203 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 15:53:42.204 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2420 ms
+2020-11-20 15:53:43.697 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:53:43.697 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:53:43.701 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 15:53:43.701 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 15:53:43.856 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:53:45.082 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 15:53:45.108 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 15:53:45.917 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 15:53:45.934 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 15:53:45.946 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 15:53:46.201 [main] INFO  com.soft1851.files.Application - Started Application in 10.233 seconds (JVM running for 12.417)
+2020-11-20 15:53:55.113 [http-nio-8004-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 15:53:55.114 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 15:53:55.125 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-11-20 15:53:55.197 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:53:55.416 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 218
+2020-11-20 15:53:55.416 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3dhKAGVSdAACm_7QsQe4687.jpg
+2020-11-20 15:53:55.417 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3dhKAGVSdAACm_7QsQe4687.jpg
+2020-11-20 15:55:04.249 [http-nio-8004-exec-10] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 15:55:04.387 [http-nio-8004-exec-10] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 137
+2020-11-20 15:55:04.387 [http-nio-8004-exec-10] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3dleAKnWfAAICDxDCOn4359.jpg
+2020-11-20 15:55:04.387 [http-nio-8004-exec-10] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3dleAKnWfAAICDxDCOn4359.jpg
+2020-11-20 16:01:58.580 [http-nio-8004-exec-8] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 16:01:58.641 [http-nio-8004-exec-8] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 61
+2020-11-20 16:01:58.641 [http-nio-8004-exec-8] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3d_aAQwwUAAA4kNTvCEI538.jpg
+2020-11-20 16:01:58.641 [http-nio-8004-exec-8] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3d_aAQwwUAAA4kNTvCEI538.jpg
+2020-11-20 16:02:08.107 [http-nio-8004-exec-9] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadFdfs ===
+2020-11-20 16:02:08.185 [http-nio-8004-exec-9] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 78
+2020-11-20 16:02:08.185 [http-nio-8004-exec-9] INFO  c.s.f.c.FileUploadController - path = group1/M00/00/00/ecRpxl-3d_-AQrRbAAKPLorD7Xc694.png
+2020-11-20 16:02:08.185 [http-nio-8004-exec-9] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/group1/M00/00/00/ecRpxl-3d_-AQrRbAAKPLorD7Xc694.png
+2020-11-20 16:05:15.666 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 16:05:16.206 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 16:05:17.051 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 16:05:17.986 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 16:05:17.989 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 16:05:18.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-11-20 16:05:18.232 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 16:05:18.702 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 16:05:18.714 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 16:05:18.714 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 16:05:18.714 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 16:05:18.867 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 16:05:18.867 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1797 ms
+2020-11-20 16:05:20.324 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 16:05:20.324 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 16:05:20.329 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 16:05:20.329 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 16:05:20.518 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 16:05:21.938 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 16:05:21.964 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 16:05:22.742 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 16:05:22.767 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 16:05:22.784 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 16:05:23.001 [main] INFO  com.soft1851.files.Application - Started Application in 8.967 seconds (JVM running for 10.983)
+2020-11-20 16:05:44.587 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 16:05:44.587 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 16:05:44.599 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-20 16:05:44.673 [http-nio-8004-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadOSS ===
+2020-11-20 16:05:45.227 [http-nio-8004-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 553
+2020-11-20 16:05:45.228 [http-nio-8004-exec-1] INFO  c.s.f.c.FileUploadController - path = img/201120BDM42GZXAW.png
+2020-11-20 16:05:45.228 [http-nio-8004-exec-1] INFO  c.s.f.c.FileUploadController - http://fastdfs.zhj.ntt1914866205.xyz/img/201120BDM42GZXAW.png
+2020-11-20 16:07:12.348 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-20 16:07:13.001 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-20 16:07:13.869 [main] INFO  com.soft1851.files.Application - The following profiles are active: dev
+2020-11-20 16:07:14.871 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 16:07:14.874 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 16:07:14.897 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-11-20 16:07:15.120 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f5bb500-774f-31a5-b8ca-dd1fa246791a
+2020-11-20 16:07:15.714 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-11-20 16:07:15.724 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-11-20 16:07:15.725 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-20 16:07:15.725 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 16:07:15.875 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-20 16:07:15.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1989 ms
+2020-11-20 16:07:17.444 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 16:07:17.444 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 16:07:17.450 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-20 16:07:17.451 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 16:07:17.653 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 16:07:19.078 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-11-20 16:07:19.110 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-11-20 16:07:19.923 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-20 16:07:19.938 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-20 16:07:19.949 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-20 16:07:20.087 [main] INFO  com.soft1851.files.Application - Started Application in 9.099 seconds (JVM running for 10.649)
+2020-11-20 16:07:21.888 [http-nio-8004-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 16:07:21.888 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-20 16:07:21.905 [http-nio-8004-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2020-11-20 16:07:21.984 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadOSS ===
+2020-11-20 16:07:22.447 [http-nio-8004-exec-5] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 462
+2020-11-20 16:07:22.447 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - path = img/201120BF576MZWBC.png
+2020-11-20 16:07:22.447 [http-nio-8004-exec-5] INFO  c.s.f.c.FileUploadController - https://xunmimi.oss-cn-hangzhou.aliyuncs.com/img/201120BF576MZWBC.png
+2020-11-20 16:07:32.707 [http-nio-8004-exec-7] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadOSS ===
+2020-11-20 16:07:32.784 [http-nio-8004-exec-7] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 76
+2020-11-20 16:07:32.784 [http-nio-8004-exec-7] INFO  c.s.f.c.FileUploadController - path = img/201120BF6X68MMCH.jpg
+2020-11-20 16:07:32.784 [http-nio-8004-exec-7] INFO  c.s.f.c.FileUploadController - https://xunmimi.oss-cn-hangzhou.aliyuncs.com/img/201120BF6X68MMCH.jpg
+2020-11-20 16:07:57.036 [http-nio-8004-exec-9] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.files.service.impl.UploadServiceImpl.uploadOSS ===
+2020-11-20 16:07:57.124 [http-nio-8004-exec-9] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 88
+2020-11-20 16:07:57.124 [http-nio-8004-exec-9] INFO  c.s.f.c.FileUploadController - path = img/201120BFAN52DCSW.png
+2020-11-20 16:07:57.125 [http-nio-8004-exec-9] INFO  c.s.f.c.FileUploadController - https://xunmimi.oss-cn-hangzhou.aliyuncs.com/img/201120BFAN52DCSW.png

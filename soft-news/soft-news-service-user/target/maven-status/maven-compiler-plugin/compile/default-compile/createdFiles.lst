@@ -4,5 +4,6 @@ com\soft1851\user\service\impl\UserServiceImpl.class
 com\soft1851\user\controller\PassportController.class
 com\soft1851\user\Application.class
 com\soft1851\user\mapper\FansMapper.class
+com\soft1851\user\controller\FansController.class
 com\soft1851\user\service\UserService.class
 com\soft1851\user\controller\UserController.class

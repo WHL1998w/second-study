@@ -1,2 +1,2 @@
-#server:
-#  port: 8103
+server:
+  port: 8103

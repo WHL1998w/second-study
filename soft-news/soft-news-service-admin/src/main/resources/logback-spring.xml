@@ -2,7 +2,7 @@
 
 <configuration>
     <!-- 指定日志文件的存储地址，使用绝对路径 -->
-    <property name="LOG_HOME" value="D:/Users/zhengliangAdmin/IdeaProjects/soft-news"/>
+    <property name="LOG_HOME" value="F:\soft-news\soft-news"/>
 
     <!-- Console 输出设置 -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">

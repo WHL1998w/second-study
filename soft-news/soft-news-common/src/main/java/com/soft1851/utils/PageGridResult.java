@@ -3,9 +3,7 @@ package com.soft1851.utils;
 import java.util.List;
 
 /**
- * @author ：wanghuanle
- * @date ：2020/11/20 19:45
- * @description：TODO
+ * 分页工具
  */
 public class PageGridResult {
     /**

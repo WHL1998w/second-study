@@ -1,3 +1,4 @@
+
 ############################################################
 #
 # 文件微服务
@@ -22,10 +23,14 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  data:
+    mongodb:
+      uri: mongodb://root:root@118.31.45.29:27817
+      database: soft_news
   servlet:
     multipart:
-      max-file-size: 512000   # 请求的文件大小限制为500kb
-      max-request-size: 512000
+      max-file-size: 5120000   # 请求的文件大小限制为5mb,单位是字节
+      max-request-size: 5120000
 
 ############################################################
 #
@@ -33,8 +38,6 @@ spring:
 #
 ############################################################
 fdfs:
-  connect-timeout: 30
-  so-timeout: 30
-  tracker-list: 47.96.1.109:22122
-
-
+  connect-timeout: 3000
+  so-timeout: 3000
+  tracker-list: 118.31.45.29:22122
