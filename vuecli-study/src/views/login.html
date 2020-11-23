@@ -122,6 +122,19 @@
               // 截取base64图片
               console.log(img);
               let img64 = img.split("base64,")[1];
+              axios
+                .post("http://admin.sn.com:8005/adminMsg/adminFaceLogin", {
+                  username: username,
+                  img64: img64,
+                })
+                .then((res) => {
+                  console.log(res.data);
+                  if (res.data.status == 200) {
+                    alert("人脸识别成功！点击确认进入系统");
+                  } else {
+                    alert(res.data.msg);
+                  }
+                });
               this.closeFace();
             } else {
               let password = this.password;

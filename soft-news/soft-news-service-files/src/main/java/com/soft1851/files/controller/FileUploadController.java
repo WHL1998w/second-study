@@ -1,11 +1,16 @@
 package com.soft1851.files.controller;
 
-import com.mongodb.gridfs.GridFSFile;
+import com.mongodb.client.gridfs.GridFSBucket;
+import com.mongodb.client.gridfs.GridFSFindIterable;
+import com.mongodb.client.gridfs.model.GridFSFile;
+import com.mongodb.client.model.Filters;
 import com.soft1851.api.controller.files.FileUploadControllerApi;
+import com.soft1851.exception.GraceException;
 import com.soft1851.files.resource.FileResource;
 import com.soft1851.files.service.UploadService;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
+import com.soft1851.utils.FileUtil;
 import com.soft1851.utils.extend.AliImageReviewUtil;
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import lombok.RequiredArgsConstructor;
@@ -23,8 +28,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -47,6 +51,7 @@ public class FileUploadController implements FileUploadControllerApi {
     private final UploadService uploadService;
     private final FileResource fileResource;
     private final AliImageReviewUtil aliImageReviewUtil;
+    private final GridFSBucket gridFSBucket;
 
     @Override
     public GraceResult uploadFace(String userId, MultipartFile file) throws Exception {
@@ -187,6 +192,31 @@ public class FileUploadController implements FileUploadControllerApi {
             e.printStackTrace();
         }
         return GraceResult.ok(new String(bytes));
+    }
+
+    @Override
+    public GraceResult readFace64(String faceId, HttpServletRequest request, HttpServletResponse response) throws Exception {
+        File myFace = readFileFromGridFs(faceId);
+        String base64Face = FileUtil.fileToBase64(myFace);
+        return GraceResult.ok(base64Face);
+    }
+
+    private File readFileFromGridFs(String faceId) throws Exception{
+        GridFSFindIterable files = gridFSBucket.find(Filters.eq("_id", new ObjectId(faceId)));
+        GridFSFile gridFSFile = files.first();
+        if (gridFSFile == null){
+            GraceException.display(ResponseStatusEnum.FILE_NOT_EXIST_ERROR);
+        }
+        String fileName = gridFSFile.getFilename();
+        System.out.println(fileName);
+        File fileTemp = new File("/Users/temp_face");
+        if (!fileTemp.exists()){
+            fileTemp.mkdir();
+        }
+        File myFile = new File("/Users/temp_face/" +fileName);
+        OutputStream os = new FileOutputStream(myFile);
+        gridFSBucket.downloadToStream(new ObjectId(faceId),os);
+        return myFile;
     }
 
     /**
