@@ -1,6 +1,7 @@
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserTokenInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\PassportInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\admin\AdminMsgControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\admin\FriendLinkControllerApi.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserActiveInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\my\mapper\MyMapper.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\aspect\ServiceLogAspect.java
@@ -14,3 +15,4 @@ F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\c
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\InterceptorConfig.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\BaseController.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\files\FileUploadControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\CloudConfig.java

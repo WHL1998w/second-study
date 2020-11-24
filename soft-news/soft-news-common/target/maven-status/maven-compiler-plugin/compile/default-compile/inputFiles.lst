@@ -1,6 +1,7 @@
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Test.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\IdWorker.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\IpUtil.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\FaceVerifyType.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\UserStatus.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\DesensitizationUtil.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\FileLock.java
@@ -11,11 +12,13 @@ F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\Serializes.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\WorkerIdStrategy.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DayPrefixRandomCodeStrategy.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\FaceVerifyUtil.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\JsonUtil.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\Ip.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewLevel.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\RedisOperator.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceException.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\UrlUtil.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\HttpReq.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Code.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DefaultWorkerIdStrategy.java
