@@ -18,6 +18,10 @@ public class FriendLinkServiceImpl implements FriendLinkService {
             friendLinkRepository.save(friendLinkMO);
         }
 
+    /**
+     * 查询友情链接
+     * @return
+     */
     @Override
     public List<FriendLinkMO> queryAllFriendLinkList() {
         return friendLinkRepository.findAll();

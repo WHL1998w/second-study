@@ -37,6 +37,10 @@ public class FriendLinkController extends BaseController implements FriendLinkCo
         return GraceResult.ok();
     }
 
+    /**
+     * 查询友情链接
+     * @return
+     */
     @Override
     public GraceResult getFriendLinkList() {
         List<FriendLinkMO> list =friendLinkService.queryAllFriendLinkList();

@@ -11,7 +11,7 @@ public interface FriendLinkService {
     void saveOrUpdateFriendLink(FriendLinkMO friendLinkMO);
 
     /**
-     * 查询友情链接
+     * 查询友情链接接口
      *
      */
     List<FriendLinkMO> queryAllFriendLinkList();

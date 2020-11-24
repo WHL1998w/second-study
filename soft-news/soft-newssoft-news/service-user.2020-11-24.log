@@ -46,3 +46,5 @@
 2020-11-24 19:45:57.194 [http-nio-8005-exec-6] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 20
 2020-11-24 19:46:07.652 [http-nio-8005-exec-2] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.admin.service.impl.FriendLinkServiceImpl.saveOrUpdateFriendLink ===
 2020-11-24 19:46:07.673 [http-nio-8005-exec-2] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 21
+2020-11-24 19:52:03.601 [http-nio-8005-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.admin.service.impl.FriendLinkServiceImpl.queryAllFriendLinkList ===
+2020-11-24 19:52:03.822 [http-nio-8005-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 221
