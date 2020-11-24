@@ -37,6 +37,11 @@ public interface FriendLinkControllerApi {
     GraceResult getFriendLinkList();
 
 
+    /**
+     * 友情链接删除
+     * @param linkId
+     * @return
+     */
     @PostMapping("delete")
     @ApiOperation(value = "删除友情链接",notes = "删除友情链接",httpMethod = "POST")
     GraceResult delete(@RequestParam String linkId);

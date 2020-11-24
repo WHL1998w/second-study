@@ -47,6 +47,11 @@ public class FriendLinkController extends BaseController implements FriendLinkCo
         return GraceResult.ok(list);
     }
 
+    /**
+     * 友情链接删除
+     * @param linkId
+     * @return
+     */
     @Override
     public GraceResult delete(String linkId) {
        friendLinkService.delete(linkId);

@@ -27,6 +27,10 @@ public class FriendLinkServiceImpl implements FriendLinkService {
         return friendLinkRepository.findAll();
     }
 
+    /**
+     * 友情链接删除
+     * @param linkId
+     */
     @Override
     public void delete(String linkId) {
         friendLinkRepository.deleteById(linkId);
