@@ -16,7 +16,7 @@
       <!-- 顶部 -->
       <div id="whiteHeader" class="red-header">
         <div class="head_wrapper">
-          <img src="img/pic-mng.png" class="center-logo" />
+          <!-- <img src="img/pic-mng.png" class="center-logo" /> -->
           <div class="right-me-info">
             <img :src="userInfo.face" class="me-face" />
             <span class="me-nickname">{{userInfo.nickname}}</span>
@@ -265,7 +265,7 @@
           elem: "#choose-date",
           type: "datetime",
           min: 0,
-          max: 0,
+          max: 3,
           format: "yyyy-MM-dd HH:mm:ss",
           done: function(value, date) {
             // 选择完后的回调
@@ -283,8 +283,7 @@
           if (this.isEmpty(articleTitle)) {
             alert("文章标题不能为空");
             return false;
-          }
-          //获得输入的内容
+          } //获得输入的内容
           let articleContent = $("#summernote").summernote("code");
           console.log(articleContent);
           if (this.isEmpty(articleContent)) {
@@ -375,7 +374,7 @@
           let articleBO = {
             title: articleTitle,
             content: articleContent,
-            categoryId: articleContent,
+            categoryId: articleCategory,
             articleType: articleType,
             articleCover: articleCover,
             isAppoint: this.isAppoint,
