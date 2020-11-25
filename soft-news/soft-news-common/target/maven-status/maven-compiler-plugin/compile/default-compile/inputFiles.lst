@@ -4,6 +4,7 @@ F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\IpUt
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\FaceVerifyType.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\UserStatus.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\DesensitizationUtil.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleCoverType.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\FileLock.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\Utils.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceExceptionHandler.java
@@ -19,6 +20,7 @@ F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\Arti
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\RedisOperator.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceException.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\UrlUtil.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleAppointType.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\HttpReq.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Code.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DefaultWorkerIdStrategy.java
@@ -31,9 +33,11 @@ F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\exte
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\InvalidSystemClock.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\DateUtil.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\DayCode.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewStatus.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\result\GraceResult.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DefaultRandomCodeStrategy.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Id.java
 F:\second-study\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Sid.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\utils\extend\AliyunResource.java
 F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\result\ResponseStatusEnum.java
+F:\second-study\soft-news\soft-news-common\src\main\java\com\soft1851\enums\YesOrNo.java

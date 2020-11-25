@@ -1,12 +1,15 @@
+F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\Article.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\AdminLoginBO.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\UpdateUserInfoBO.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\AppUser.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\mo\FriendLinkMO.java
+F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\NewArticleBO.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\Fans.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\validate\CheckUrl.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\AdminUser.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\mo\SaveFriendLinkBO.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\validate\CheckUrlValidate.java
+F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\Category.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\NewAdminBO.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\RegistLoginBO.java
 F:\second-study\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\vo\UserAccountInfoVO.java

@@ -2,11 +2,13 @@ F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\i
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\PassportInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\admin\AdminMsgControllerApi.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\admin\FriendLinkControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\category\CategoryControllerApi.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserActiveInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\my\mapper\MyMapper.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\aspect\ServiceLogAspect.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\CorsConfig.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\HelloControllerApi.java
+F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\article\ArticleControllerApi.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\BaseInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\AdminTokenInterceptor.java
 F:\second-study\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\UserControllerApi.java
