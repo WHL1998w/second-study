@@ -21,6 +21,8 @@ import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -80,6 +82,34 @@ public class UserController extends BaseController implements UserControllerApi 
         AppUserVO userVO = new AppUserVO();
         BeanUtils.copyProperties(user, userVO);
         return GraceResult.ok(userVO);
+    }
+
+    @Override
+    public GraceResult queryByIds(String userIds) {
+        if (StringUtils.isBlank(userIds)) {
+            return GraceResult.errorCustom(ResponseStatusEnum.USER_NOT_EXIST_ERROR);
+
+        }
+        List<AppUserVO> publisherlist = new ArrayList<>();
+        List<String> userIdList = JsonUtil.jsonToList(userIds, String.class);
+        assert  userIdList != null;
+        for (String userId : userIdList) {
+            //获得用户基本信息
+            AppUserVO userVO = getBasicUserInfo(userId);
+            // 添加到publisherList
+            publisherlist.add(userVO);
+            //
+        }
+        return GraceResult.ok(publisherlist);
+    }
+
+    private AppUserVO getBasicUserInfo(String userId){
+        // 1.根据userId查询用户的信息
+        AppUser user = getUser(userId);
+        // 2.返回用户信息
+        AppUserVO userVO = new AppUserVO();
+        BeanUtils.copyProperties(user,userVO);
+        return userVO;
     }
 
     private AppUser getUser(String userId) {
