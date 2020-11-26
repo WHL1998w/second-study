@@ -36,5 +36,14 @@ public interface FansControllerApi {
     @ApiOperation(value = "关注作者，成为粉丝", notes = "关注作者，成为粉丝", httpMethod = "POST")
     GraceResult follow(@RequestParam String writerId,@RequestParam String fanId);
 
+    /**
+     * 取消关注
+     * @param writerId
+     * @param fanId
+     * @return
+     */
+    @PostMapping("/unfollow")
+    @ApiOperation(value = "取消关注，作者粉丝减少", notes = "取消关注，作者粉丝减少", httpMethod = "POST")
+    GraceResult unfollow(@RequestParam String writerId,@RequestParam String fanId);
 
 }
