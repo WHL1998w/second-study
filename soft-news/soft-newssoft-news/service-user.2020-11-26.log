@@ -326,3 +326,15 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2020-11-26 16:31:36.223 [http-nio-8003-exec-10] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 2
 2020-11-26 16:32:30.450 [http-nio-8003-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryRegionRatioCounts ===
 2020-11-26 16:32:30.507 [http-nio-8003-exec-4] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 57
+2020-11-26 17:29:03.187 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryFansCounts ===
+2020-11-26 17:29:03.207 [http-nio-8003-exec-2] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryRegionRatioCounts ===
+2020-11-26 17:29:03.220 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 29
+2020-11-26 17:29:03.221 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryFansCounts ===
+2020-11-26 17:29:03.224 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 2
+2020-11-26 17:29:03.301 [http-nio-8003-exec-2] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 93
+2020-11-26 17:29:49.409 [http-nio-8003-exec-3] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryFansCounts ===
+2020-11-26 17:29:49.409 [http-nio-8003-exec-9] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryRegionRatioCounts ===
+2020-11-26 17:29:49.415 [http-nio-8003-exec-3] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 6
+2020-11-26 17:29:49.416 [http-nio-8003-exec-3] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.queryFansCounts ===
+2020-11-26 17:29:49.417 [http-nio-8003-exec-3] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 1
+2020-11-26 17:29:49.472 [http-nio-8003-exec-9] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 62
