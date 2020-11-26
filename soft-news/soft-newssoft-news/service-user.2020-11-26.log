@@ -1,0 +1,177 @@
+2020-11-26 15:37:56.854 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-26 15:37:57.480 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-26 15:37:58.356 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-26 15:38:00.375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-26 15:38:00.376 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-26 15:38:00.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2020-11-26 15:38:00.436 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-26 15:38:00.437 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-26 15:38:00.448 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2020-11-26 15:38:00.622 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.soft1851.user]' package. Please check your configuration.
+2020-11-26 15:38:00.919 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4459488-336b-359b-89be-a37247f7a01c
+2020-11-26 15:38:01.579 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2020-11-26 15:38:01.589 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2020-11-26 15:38:01.590 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-26 15:38:01.590 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-26 15:38:01.762 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-26 15:38:01.762 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3362 ms
+2020-11-26 15:38:04.543 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-26 15:38:04.543 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-26 15:38:04.548 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-26 15:38:04.548 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-26 15:38:04.756 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:38:04.908 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-11-26 15:38:04.909 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-11-26 15:38:04.909 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-11-26 15:38:04.909 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-11-26 15:38:05.090 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-11-26 15:38:05.228 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-11-26 15:38:05.256 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-11-26 15:38:06.354 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2020-11-26 15:38:06.378 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2020-11-26 15:38:07.025 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-26 15:38:07.045 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-26 15:38:07.058 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-26 15:38:07.217 [cluster-ClusterId{value='5fbf5b5d736ed23de2c718ec', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-11-26 15:38:07.330 [main] INFO  com.soft1851.user.Application - Started Application in 11.891 seconds (JVM running for 14.358)
+2020-11-26 15:38:37.347 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-26 15:38:37.740 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-26 15:38:38.529 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-26 15:38:39.786 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-26 15:38:39.787 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-26 15:38:39.816 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 MongoDB repository interfaces.
+2020-11-26 15:38:39.833 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-26 15:38:39.835 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-26 15:38:39.850 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2020-11-26 15:38:40.071 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.soft1851.user]' package. Please check your configuration.
+2020-11-26 15:38:40.190 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4459488-336b-359b-89be-a37247f7a01c
+2020-11-26 15:38:40.731 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2020-11-26 15:38:40.741 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2020-11-26 15:38:40.742 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-26 15:38:40.742 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-26 15:38:40.947 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-26 15:38:40.947 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2399 ms
+2020-11-26 15:38:43.458 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-26 15:38:43.458 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-26 15:38:43.466 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-26 15:38:43.466 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-26 15:38:43.665 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:38:43.871 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-11-26 15:38:43.871 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-11-26 15:38:43.872 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-11-26 15:38:43.872 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-11-26 15:38:43.997 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-11-26 15:38:44.080 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-11-26 15:38:44.107 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-11-26 15:38:45.152 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2020-11-26 15:38:45.173 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2020-11-26 15:38:45.823 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-26 15:38:45.835 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-26 15:38:45.846 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-26 15:38:46.014 [main] INFO  com.soft1851.user.Application - Started Application in 9.951 seconds (JVM running for 11.509)
+2020-11-26 15:38:46.044 [cluster-ClusterId{value='5fbf5b830b169979cdd566e5', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-11-26 15:39:08.615 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:39:08.615 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:39:08.628 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-26 15:40:12.781 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2020-11-26 15:40:13.195 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-11-26 15:40:13.947 [main] INFO  com.soft1851.user.Application - The following profiles are active: dev
+2020-11-26 15:40:14.795 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-26 15:40:14.795 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-26 15:40:14.817 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 MongoDB repository interfaces.
+2020-11-26 15:40:14.829 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-26 15:40:14.831 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-26 15:40:14.840 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2020-11-26 15:40:14.995 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.soft1851.user]' package. Please check your configuration.
+2020-11-26 15:40:15.075 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4459488-336b-359b-89be-a37247f7a01c
+2020-11-26 15:40:15.554 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2020-11-26 15:40:15.564 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2020-11-26 15:40:15.564 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-26 15:40:15.564 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-26 15:40:15.728 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-26 15:40:15.728 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1763 ms
+2020-11-26 15:40:17.967 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-26 15:40:17.967 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-26 15:40:17.973 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-11-26 15:40:17.973 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-26 15:40:18.145 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:40:18.299 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-11-26 15:40:18.300 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-11-26 15:40:18.300 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-11-26 15:40:18.300 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-11-26 15:40:18.417 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-11-26 15:40:18.499 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-11-26 15:40:18.525 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-11-26 15:40:19.583 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2020-11-26 15:40:19.605 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2020-11-26 15:40:20.259 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-26 15:40:20.271 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-26 15:40:20.281 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-26 15:40:20.450 [main] INFO  com.soft1851.user.Application - Started Application in 8.984 seconds (JVM running for 10.52)
+2020-11-26 15:40:20.481 [cluster-ClusterId{value='5fbf5be22e3b4c4926808772', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-11-26 15:40:29.717 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:40:29.717 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:40:29.725 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-11-26 15:40:29.997 [http-nio-8003-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2020-11-26 15:40:30.423 [http-nio-8003-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2020-11-26 15:40:30.448 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.follow ===
+2020-11-26 15:40:30.451 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.UserServiceImpl.getUser ===
+2020-11-26 15:40:30.453 [http-nio-8003-exec-1] INFO  c.s.u.service.impl.UserServiceImpl - 从数据库查询用户信息！！！
+2020-11-26 15:40:30.551 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 99
+2020-11-26 15:40:31.694 [http-nio-8003-exec-1] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 1246
+2020-11-26 15:41:40.196 [http-nio-8003-exec-2] INFO  c.s.api.aspect.ServiceLogAspect - === 开始执行 class com.soft1851.user.service.impl.FansServiceImpl.isMeFollowThisWriter ===
+2020-11-26 15:41:40.202 [http-nio-8003-exec-2] INFO  c.s.api.aspect.ServiceLogAspect - 当前执行耗时: 6
